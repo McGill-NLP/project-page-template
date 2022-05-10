@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Jekyll
+docs/_site
+docs/.sass-cache
+docs/.jekyll-metadata
+docs/Gemfile.lock
+docs/vendor/*
+docs/.bundle
+
+.vscode
