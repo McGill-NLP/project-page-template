@@ -40,9 +40,9 @@ Once the template is copied to your project, you need to activate GitHub Pages f
 
 You might be wondering why all the files for the webpage is in `/docs`. Well the page is not really "docs" per se, it's because `github-pages` only allows us to either use the root folder or `/docs`. So we are forced to use the latter in order to clearly separate this page from the rest of the project. Maybe in the future GitHub will allow other names like `/page`, but before then there's nothing we can do... 
   
-> Well technically, you *can* push everything to a separate branch, but the original author of this repo is in the school of thought that branches are meant for alternate or historical versions of the `main` branch, and should main serve as a way to create pull requests. The original author will also vehemently defend this philosophy if one tries to argue otherwise :)
+> Well technically, you *can* push everything to a separate branch, but the original author of this repo is in the school of thought that branches are meant for alternate or historical versions of the `main` branch, or serve as a way to create pull requests. The original author will also vehemently defend this philosophy if one tries to argue otherwise :)
   
-But what if you actually want to write some docs for your library? You can just edit `docs/_pages/docs.md` is the real page for documentations.
+But what if you actually want to write some docs for your library? You can just edit `docs/_pages/docs.md`, which is the real page for documentations.
   
 
 ## Navigation bar
