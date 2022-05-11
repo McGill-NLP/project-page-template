@@ -20,6 +20,7 @@ If you have already created a repo for your project, you can clone the template 
 cd ..  # Go to parent directory
 git clone https://github.com/McGill-NLP/project-page-template
 cp -r project-page-template/docs my-project/
+cp project-page-template/README.md my-project/docs/
 cd my-project/
 ```
 
