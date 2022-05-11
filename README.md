@@ -80,3 +80,7 @@ Inside [`docs/_config.yml`](docs/_config.yml) file, you can modify the footer.
 ### Modify `excerpt` in a splash page (`/home`)
 
 If you want to modify the excerpt in the `/home` page, you can do so in [`docs/_sass_/splash.scss`](docs/_sass_/splash.scss). Note that `splash.scss` was added specifically for this template, not for the group website.
+
+### Modify or remove icons in splash page buttons
+
+This is handled in [`docs/_includes/page__hero.html`](docs/_includes/page__hero.html). That file was added specifically for this template, not for the group website. You can modify that file to add, modify or remove icons.
