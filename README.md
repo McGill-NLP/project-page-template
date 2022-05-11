@@ -76,3 +76,7 @@ To remove dark mode, inside [`docs/_config.yml`](docs/_config.yml) file, remove 
 ### Updating footer
 
 Inside [`docs/_config.yml`](docs/_config.yml) file, you can modify the footer.
+
+### Modify `excerpt` in a splash page (`/home`)
+
+If you want to modify the excerpt in the `/home` page, you can do so in [`docs/_sass_/splash.scss`](docs/_sass_/splash.scss). Note that `splash.scss` was added specifically for this template, not for the group website.
