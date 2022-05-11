@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "My project name"
 layout: splash
 header:
     overlay_color: rgb(237, 27, 47)
@@ -16,5 +15,10 @@ header:
         - label: "Video"
           url: "https://youtube.come"
 
+title: "My project name"
 excerpt: Firstname Lastname, Firstname Lastname, Firstname Lastname, Firstname Lastname, Firstname Lastname
 ---
+
+## About this project
+
+Here, you can write a short description of your project.
