@@ -67,6 +67,12 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/McGill_NLP"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MEDG9XN4VP"
+    anonymize_ip: false # default
+
 atom_feed:
   hide: true
 
