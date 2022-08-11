@@ -9,6 +9,8 @@ main:
     url: /contact/
 
 sidebar-docs:  # See "include" in /_config.yml and /docs/_docs
+  - title: "Home"
+    url: /docs/
   - title: "API"
     url: /docs/api
   - title: "Training"
