@@ -104,7 +104,7 @@ defaults:
     values:
       layout: single
       sidebar:
-        title: "Content"
+        title: "Doc Pages"
         nav: sidebar-docs  # See /docs/_data/navigation.yml
       toc: true
       toc_label: "Table of Contents"
