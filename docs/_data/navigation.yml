@@ -7,3 +7,9 @@ main:
     url: /docs/
   - title: "Contact"
     url: /contact/
+
+sidebar-docs:  # See "include" in /_config.yml and /docs/_docs
+  - title: "API"
+    url: /docs/api
+  - title: "Training"
+    url: /docs/training

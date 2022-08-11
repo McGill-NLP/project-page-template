@@ -32,6 +32,7 @@ timezone: America/Montreal
 
 include:
   - _pages
+  - _docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -86,13 +87,24 @@ footer:
       url: "https://twitter.com/McGill_NLP"
 
 defaults:
-  # _pages
+  # /docs/_pages
   - scope:
       path: "_pages"
       type: pages
     values:
       layout: single
-      classes: 
+      classes:
         - no-sidebar
         - wide
       author_profile: false
+  # /docs/_docs
+  - scope:
+      path: "_docs"
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        title: "Content"
+        nav: sidebar-docs  # See /docs/_data/navigation.yml
+      toc: true
+      toc_label: "Table of Contents"

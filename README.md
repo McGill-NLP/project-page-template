@@ -95,3 +95,7 @@ If you want to modify the excerpt in the `/home` page, you can do so in [`docs/_
 ### Modify or remove icons in splash page buttons
 
 This is handled in [`docs/_includes/page__hero.html`](docs/_includes/page__hero.html). That file was added specifically for this template, not for the group website. You can modify that file to add, modify or remove icons.
+
+## Documentations and API for your project
+
+Note that there's a tab that says `docs`, and you can see that it links to other pages. So this is a standalone doc page inside your webpage. Note also that, due to Github pages' caveat, we were forced to put the webpage in `/docs`, but the actual docs are in `/docs/_docs`. Now that's cleared up, you can head to [`/docs/_docs/README.md`](/docs/_docs/README.md) to read the instructions.
