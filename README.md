@@ -70,6 +70,7 @@ To remove a page:
 
 Note that there's a tab that says `docs`, and you can see that it links to other pages. So this is a standalone doc page inside your webpage. Note also that, due to Github pages' caveat, we were forced to put the webpage in `/docs`, but the actual docs are in `/docs/_docs`. Now that's cleared up, you can head to [`/docs/_docs/README.md`](/docs/_docs/README.md) to read the instructions.
 
+> Do you feel writing documentation is too complicated or time-consuming, and you'd like something more straightforward? Check out the [template for using MkDocs](https://github.com/McGill-NLP/mkdocs-template) instead. However, the simplicity comes at the cost of more repositories and different frameworks to maintain.
 
 ## Advanced
 
